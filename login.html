@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>login</title>
+	<link rel="stylesheet" type="text/css" href="style/login.css">
+	<link rel="stylesheet" type="text/css" href="style/m.base.css">
+	<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+</head>
+<body style="background: #fff">
+<div class="m_layout">
+    <header>
+    	<div>
+    		<a href="mine.html"><i class="iconfont">&#xe601;</i></a>
+    		<h2>用户登录</h2>
+    		<u class="iconfont">&#xe607;</u>
+    	</div>
+    </header>
+	
+        <!-- title部分 -->
+	    <div class="_title">
+	    	<ul class="clearfix">
+	    		<li class="_under1"><p>账号登录<span></span></p></li>
+	    		<li class="_under2"><p>手机动态密码登录<span></span></p></li>
+	    	</ul>
+	    </div>
+	    <!-- _content部分 -->
+	    <div class="_content sel">
+	    	<form>
+	    	<!-- 用户名 -->
+	    		<div class="user clear">
+	    			<i class="iconfont">&#xe670;</i>
+	    			<input type="text" name="" placeholder="用户名/邮箱/手机号">
+	    			<!-- <p>
+	    				<i></i>
+	    				<span>请输入用户名/邮箱/手机号</span>
+	    			</p> -->
+	    		</div>
+	    		<!-- 密码 -->
+	    		<div class="psd">
+	    			<i class="iconfont">&#xe60e;</i>
+	    			<input type="password" name="" placeholder="密码">
+	    			<!-- <p>
+	    				<i></i>
+	    				<span>请输入密码</span>
+	    			</p> -->
+	    		</div>
+	    		<!-- 验证码 -->
+	    		<div class="verify clearfix">
+	    			<input type="text" name="" placeholder="验证码">
+	    			<div class="_pic clearfix">
+	    				<a href="#"><img src="images/yanzhengma.png"></a>
+	    				<a href="#">换一张</a>
+	    			</div>
+	    		</div>
+	    		<!-- 立即登录 -->
+	    		<a href="#" class="btn">立即登录</a>
+	    		<!-- 免费注册 -->
+	    		<div class="_free clearfix">
+	    			<a href="#">免费注册</a>
+	    			<a href="#">找回密码</a>
+	    		</div>
+	    		<!-- 合作伙伴登录 -->
+	    		<div class="_partner">
+	    			<div class="_partner_title clearfix">
+	    				<div class="_line"></div>
+	    				<span>合作伙伴登录</span>
+	    				<div class="_line"></div>
+	    			</div>
+	    			<ul class="choose clearfix">
+	    				<li><a href="#"><img src="images/qq.png"></a></li>
+	    				<li><a href="#"><img src="images/zhifubao.png"></a></li>
+	    			</ul>
+	    		</div>
+	    	</form>
+	    </div>
+
+	    <!-- 注册按钮 -->
+	    <!-- _content部分 -->
+	    <div class="_content">
+	    	<form>
+	    	<!-- 用户名 -->
+	    		<div class="user clear">
+	    			<i class="iconfont">&#xe60c;</i>
+	    			<input type="text" name="" placeholder="请输入手机号，新用户将自动注册">
+	    			<!-- <p>
+	    				<i></i>
+	    				<span>请输入用户名/邮箱/手机号</span>
+	    			</p> -->
+	    		</div>
+	    		<!-- 验证码 -->
+	    		<div class="verify clearfix">
+	    			<input type="text" name="" placeholder="验证码">
+	    			<div class="_pic clearfix">
+	    				<a href="#"><img src="images/yanzhengma.png"></a>
+	    				<a href="#">换一张</a>
+	    			</div>
+	    		</div>
+	    		<!--  获取校验码-->
+	    		<div class="_get clearfix">
+	    			<input type="text" name="" placeholder="验证码">
+	    			<a href="#" class="btn0">获取校验码</a>
+	    		</div>
+	    		<!-- 立即登录 -->
+	    		<a href="#" class="btn">立即登录</a>
+	    		<!-- 免费注册 -->
+	    		<div class="_free clearfix">
+	    			<a href="#">免费注册</a>
+	    			<a href="#">找回密码</a>
+	    		</div>
+	    		<!-- 合作伙伴登录 -->
+	    		<div class="_partner">
+	    			<div class="_partner_title clearfix">
+	    				<div class="_line"></div>
+	    				<span>合作伙伴登录</span>
+	    				<div class="_line"></div>
+	    			</div>
+	    			<ul class="choose clearfix">
+	    				<li><a href="#"><img src="images/qq.jpg"></a></li>
+	    				<li><a href="#"><img src="images/zhifubao.jpg"></a></li>
+	    			</ul>
+	    		</div>
+	    	</form>
+	    </div>
+	</div>
+	<script type="text/javascript">
+		var _index=0;
+		$("._title ul li").click(function(){
+			_index=$(this).index();
+			$(this).addClass("_under1").siblings().removeClass("_under1");
+			$("._content").eq(_index).addClass("sel").siblings().removeClass("sel");
+		})
+	</script>
+</body>
+</html>

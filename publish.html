@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>publish</title>
+  <script src="js/adaptive.js"></script>
+<link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="style/m_base1.css">
+<link rel="stylesheet" type="text/css" href="style/swiper-3.4.2.min.css">
+<link rel="stylesheet" type="text/css" href="style/publish.css">
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+</head>
+<body>
+   <!-- header -->
+   <header class="_publish">
+        <div class="_h1">
+          <i class="iconfont">&#xe63b;</i>
+          <p>登录</p>
+        </div>
+        <u class="iconfont">&#xe604;</u>
+   </header>
+   <!-- _publish_con部分 -->
+   <div class="_publish_con">
+       <!-- banner部分 -->
+       <div class="banner">
+          <img src="images/publish1.jpg">
+       </div>
+       <!-- title部分 -->
+       <div class="title_p">
+           <ul class="clearfix">
+              <li class="on">活动</li>
+              <li>精选页</li>
+              <li>酒友圈</li>
+           </ul>
+       </div>
+       <!-- 内容部分 -->
+       <section class="i1 sel">
+         <ul class="con_wrap">
+          <li>
+          <div class="publish_f1 clearfix">
+            <img src="images/publish3.jpg">
+              <div class="text">
+                <p>葡萄酒迷妹</p>
+                 <p>12-06 16:17</p>
+              </div>
+            </div>
+           <div class="publish_f2 clearfix">
+               <div class="line"></div>
+               <div class="text1 clearfix">
+                 <h3>热红酒？10种葡萄酒加热配方任你选</h3>
+                 <p>冬天来了，相信很多酒友们都有着这样一种忧伤：天冷，酒冷，需要冰镇饮用的白葡萄酒最冷，一杯葡萄酒下肚之后一杯葡萄酒下肚之后一杯葡萄酒下肚之后</p>
+               </div>
+               <img src="images/publish4.jpg">
+           </div>
+           <div class="publish_f3">
+              <img src="images/publish5.jpg">
+              <span>葡萄酒动态</span>
+           </div>
+           </li>
+           <li>
+          <div class="publish_f1 clearfix">
+            <img src="images/publish3.jpg">
+              <div class="text">
+                <p>葡萄酒迷妹</p>
+                 <p>12-06 16:17</p>
+              </div>
+            </div>
+           <div class="publish_f2 clearfix">
+               <div class="line"></div>
+               <div class="text1 clearfix">
+                 <h3>热红酒？10种葡萄酒加热配方任你选</h3>
+                 <p>冬天来了，相信很多酒友们都有着这样一种忧伤：天冷，酒冷，需要冰镇饮用的白葡萄酒最冷，一杯葡萄酒下肚之后一杯葡萄酒下肚之后一杯葡萄酒下肚之后</p>
+               </div>
+               <img src="images/publish4.jpg">
+           </div>
+           <div class="publish_f3">
+              <img src="images/publish5.jpg">
+              <span>葡萄酒动态</span>
+           </div>
+           </li>
+          </ul>
+       </section>
+       <!-- 内容部分 -->
+       <section class="i2">
+          <div class="publish_f1">
+            <img src="images/publish2.jpg">
+           </div>
+           <div class="publish_f2">
+               <div class="publish_f">
+               </div>
+               <span>寻找真爱王子</span>
+               <i>new</i>
+               <u>人气</u>
+               <strong>1376</strong>
+           </div>
+       </section>
+   </div>
+  <!-- 页脚 -->
+   <footer>
+     <ul class="clearfix">
+       <li><a href="default.html" target="_self"></a></li>
+       <li class="on"><a href="category.html" target="_self"></a></li>
+       <li><a href="#" target="_self"></a></li>
+       <li><a href="cart.html" target="_self"></a></li>
+       <li><a href="login.html" target="_self"></a></li>
+     </ul>
+   </footer>
+<!-- 页脚 -->
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="js/swiper-3.4.2.min.js"></script>
+<script type="text/javascript">
+    var _index=0;
+  $(".title_p ul li").click(function(){
+        _index=$(this).index();
+        $(this).addClass("on").siblings().removeClass("on");
+        $("section").eq(_index).addClass("sel").siblings().removeClass("sel");
+  })
+</script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+.body{width: 100%;height:100%;position: absolute;}
+.category_main{width:100%;/*height:100%;*/max-width:7.5rem;min-width:3.2rem;position:absolute;left:50%;transform:translateX(-50%);background:#fff;top:1rem;bottom:1.05rem;overflow:hidden;}
+.category_main .category_nav{float:left;width:21.6%;height:100%;font-size: 0.18rem;background: #f1f5f4;overflow-y:auto;}
+.category_main .category_nav ul li{color:#737676;height:1rem;line-height: 1rem;text-align:center;font-size: 0.3rem;}
+/*导航栏字体样式*/
+.category_main .category_nav ul li.on{background:#fff;color:#fd6465;}
+/*所有的全部隐藏*/
+.category_main .category_con{display:none;}
+.category_main .sel{display:block;}
+/*右侧内容部分*/
+.category_main .i1{float:right;width:5.88rem;padding:0 0.55rem;/*background:red;*/overflow-y:auto;height:100%;}
+/*一键选酒*/
+.category_main .i1 section ul li{float:left;width:1.14rem;margin-right:0.68rem;margin-top:0.63rem;height:1.67rem;}
+.category_main .i1 section ul li:nth-child(3n){margin-right:0;}
+.category_main .i1 section ul li a{display: block;width:100%;height:100%;}
+.category_main .i1 section ul li a img{margin:0 0.08rem;width:0.81rem;height:0.85rem;}
+.category_main .i1 section ul li a span{font-size:0.18rem;color:#7e7e7e;margin:0 auto;display: block;margin-top:0.5rem;width:100%;height:0.18rem;line-height: 0.18rem;}
+/*白酒*/
+.category_main .i2{float:right;width:5.88rem;/*background:red;*/overflow-y:auto;height:100%;}
+.category_main .i2 .i2_t{height:2.7rem;width:100%;padding:0.28rem 0.24rem 0 0.24rem;}
+.category_main .i2 .i2_t .banner .swiper-container{width:100%;height:1.7rem;}
+.category_main .i2 .i2_t .banner .swiper-container img{width:100%;height:100%;}
+.banner .swiper-container .swiper-pagination-bullet{ width:0.2rem; height:0.2rem; opacity:0.4;}
+.banner .swiper-container .swiper-pagination-bullet-active{ background:#ccc;  opacity:1;}
+.category_main .i2 .i2_t ._text{margin-top:0.2rem;height:0.5rem;background: #f4f4f4;position: relative;}
+.category_main .i2 .i2_t ._text ._line{position: absolute;left:0;width:0.1rem;height:100%;background: #ff9a31;}
+.category_main .i2 .i2_t ._text ._hot{width:1.2rem;height:0.5rem;font-size:0.2rem;line-height: 0.5rem;margin-left:0.24rem;float:left;}
+.category_main .i2 .i2_t ._text a{display: inline-block;position: absolute;right:0.14rem;width:1.3rem;height:0.5rem;}
+.category_main .i2 .i2_t ._text a span{color:#949494;font-size:0.2rem;line-height: 0.5rem;height:0.5rem;}
+.category_main .i2 .i2_t ._text a img{width:0.12rem;height:0.24rem;position: absolute;right:-0.1rem;top:0.14rem;}
+.category_main .i2 .i2_b{width:100%;padding:0 0.24rem 0 0.24rem;}
+.category_main .i2 .i2_b ul{width:100%;padding:0.22rem 0.3rem 0 0.28rem;}
+.category_main .i2 .i2_b ul li{width:1.26rem;margin-right:0.5rem;float:left;height:1.46rem;margin-bottom:0.58rem;text-align: center;}
+.category_main .i2 .i2_b ul li:nth-child(3n){margin-right: 0;}
+.category_main .i2 .i2_b ul li img{width:100%;height:1.16rem;}
+.category_main .i2 .i2_b ul li span{color:#ababab;font-size: 0.28rem;}
+
+/*葡萄酒*/
+.category_main .i3{float:right;width:5.88rem;/*background:red;*/overflow-y:auto;height:100%;}
+.category_main .i3 .i3_t{height:2.7rem;width:100%;padding:0.28rem 0.24rem 0 0.24rem;}
+.category_main .i3 .i3_t .banner .swiper-container{width:100%;height:1.7rem;}
+.category_main .i3 .i3_t .banner .swiper-container img{width:100%;height:100%;}
+.banner .swiper-container .swiper-pagination-bullet{ width:0.2rem; height:0.2rem; opacity:0.4;}
+.banner .swiper-container .swiper-pagination-bullet-active{ background:#ccc;  opacity:1;}
+.category_main .i3 .i3_t ._text{margin-top:0.2rem;height:0.5rem;background: #f4f4f4;position: relative;}
+.category_main .i3 .i3_t ._text ._line{position: absolute;left:0;width:0.1rem;height:100%;background: #ff9a31;}
+.category_main .i3 .i3_t ._text ._hot{width:1.2rem;height:0.5rem;font-size:0.2rem;line-height: 0.5rem;margin-left:0.24rem;float:left;}
+.category_main .i3 .i3_t ._text a{display: inline-block;position: absolute;right:0.14rem;width:1.3rem;height:0.5rem;}
+.category_main .i3 .i3_t ._text a span{color:#949494;font-size:0.2rem;line-height: 0.5rem;height:0.5rem;}
+.category_main .i3 .i3_t ._text a img{width:0.12rem;height:0.24rem;position: absolute;right:-0.1rem;top:0.14rem;}
+.category_main .i3 .i3_b{width:100%;padding:0 0.24rem 0 0.24rem;}
+.category_main .i3 .i3_b ul{width:100%;padding:0.22rem 0.3rem 0 0.28rem;}
+.category_main .i3 .i3_b ul li{width:1.26rem;margin-right:0.5rem;float:left;height:1.46rem;margin-bottom:0.58rem;text-align: center;}
+.category_main .i3 .i3_b ul li:nth-child(3n){margin-right: 0;}
+.category_main .i3 .i3_b ul li img{width:100%;height:1.16rem;}
+.category_main .i3 .i3_b ul li span{color:#ababab;font-size: 0.28rem;}
+
+/*洋酒*/
+.category_main .i4{float:right;width:5.88rem;/*background:red;*/overflow-y:auto;height:100%;}
+.category_main .i4 .i4_t{height:2.7rem;width:100%;padding:0.28rem 0.24rem 0 0.24rem;}
+.category_main .i4 .i4_t .banner .swiper-container{width:100%;height:1.7rem;}
+.category_main .i4 .i4_t .banner .swiper-container img{width:100%;height:100%;}
+.banner .swiper-container .swiper-pagination-bullet{ width:0.2rem; height:0.2rem; opacity:0.4;}
+.banner .swiper-container .swiper-pagination-bullet-active{ background:#ccc;  opacity:1;}
+.category_main .i4 .i4_t ._text{margin-top:0.2rem;height:0.5rem;background: #f4f4f4;position: relative;}
+.category_main .i4 .i4_t ._text ._line{position: absolute;left:0;width:0.1rem;height:100%;background: #ff9a31;}
+.category_main .i4 .i4_t ._text ._hot{width:1.2rem;height:0.5rem;font-size:0.2rem;line-height: 0.5rem;margin-left:0.24rem;float:left;}
+.category_main .i4 .i4_t ._text a{display: inline-block;position: absolute;right:0.14rem;width:1.3rem;height:0.5rem;}
+.category_main .i4 .i4_t ._text a span{color:#949494;font-size:0.2rem;line-height: 0.5rem;height:0.5rem;}
+.category_main .i4 .i4_t ._text a img{width:0.12rem;height:0.24rem;position: absolute;right:-0.1rem;top:0.14rem;}
+.category_main .i4 .i4_b{width:100%;padding:0 0.24rem 0 0.24rem;}
+.category_main .i4 .i4_b ul{width:100%;padding:0.22rem 0.3rem 0 0.28rem;}
+.category_main .i4 .i4_b ul li{width:1.26rem;margin-right:0.5rem;float:left;height:1.46rem;margin-bottom:0.58rem;text-align: center;}
+.category_main .i4 .i4_b ul li:nth-child(3n){margin-right: 0;}
+.category_main .i4 .i4_b ul li img{width:100%;height:1.16rem;}
+.category_main .i4 .i4_b ul li span{color:#ababab;font-size: 0.28rem;}
+/*黄/保/啤*/
+.category_main .i5{float:right;width:5.88rem;/*background:red;*/overflow-y:auto;height:100%;}
+.category_main .i5 .i5_t{height:2.7rem;width:100%;padding:0.28rem 0.24rem 0 0.24rem;}
+.category_main .i5 .i5_t .banner .swiper-container{width:100%;height:1.7rem;}
+.category_main .i5 .i5_t .banner .swiper-container img{width:100%;height:100%;}
+.banner .swiper-container .swiper-pagination-bullet{ width:0.2rem; height:0.2rem; opacity:0.4;}
+.banner .swiper-container .swiper-pagination-bullet-active{ background:#ccc;  opacity:1;}
+.category_main .i5 .i5_t ._text{margin-top:0.2rem;height:0.5rem;background: #f4f4f4;position: relative;}
+.category_main .i5 .i5_t ._text ._line{position: absolute;left:0;width:0.1rem;height:100%;background: #ff9a31;}
+.category_main .i5 .i5_t ._text ._hot{width:1.2rem;height:0.5rem;font-size:0.2rem;line-height: 0.5rem;margin-left:0.24rem;float:left;}
+.category_main .i5 .i5_t ._text a{display: inline-block;position: absolute;right:0.14rem;width:1.3rem;height:0.5rem;}
+.category_main .i5 .i5_t ._text a span{color:#949494;font-size:0.2rem;line-height: 0.5rem;height:0.5rem;}
+.category_main .i5 .i5_t ._text a img{width:0.12rem;height:0.24rem;position: absolute;right:-0.1rem;top:0.14rem;}
+.category_main .i5 .i5_b{width:100%;padding:0 0.24rem 0 0.24rem;}
+.category_main .i5 .i5_b ul{width:100%;padding:0.22rem 0.3rem 0 0.28rem;}
+.category_main .i5 .i5_b ul li{width:1.26rem;margin-right:0.5rem;float:left;height:1.46rem;margin-bottom:0.58rem;text-align: center;}
+.category_main .i5 .i5_b ul li:nth-child(3n){margin-right: 0;}
+.category_main .i5 .i5_b ul li img{width:100%;height:1.16rem;}
+.category_main .i5 .i5_b ul li span{color:#ababab;font-size: 0.28rem;}
+
+/*酒仙食尚*/
+.category_main .i6{float:right;width:5.88rem;/*background:red;*/overflow-y:auto;height:100%;}
+.category_main .i6 .i6_t{height:2.7rem;width:100%;padding:0.28rem 0.24rem 0 0.24rem;}
+.category_main .i6 .i6_t .banner .swiper-container{width:100%;height:1.7rem;}
+.category_main .i6 .i6_t .banner .swiper-container img{width:100%;height:100%;}
+.banner .swiper-container .swiper-pagination-bullet{ width:0.2rem; height:0.2rem; opacity:0.4;}
+.banner .swiper-container .swiper-pagination-bullet-active{ background:#ccc;  opacity:1;}
+.category_main .i6 .i6_t ._text{margin-top:0.2rem;height:0.5rem;background: #f4f4f4;position: relative;}
+.category_main .i6 .i6_t ._text ._line{position: absolute;left:0;width:0.1rem;height:100%;background: #ff9a31;}
+.category_main .i6 .i6_t ._text ._hot{width:1.2rem;height:0.5rem;font-size:0.2rem;line-height: 0.5rem;margin-left:0.24rem;float:left;}
+.category_main .i6 .i6_t ._text a{display: inline-block;position: absolute;right:0.14rem;width:1.3rem;height:0.5rem;}
+.category_main .i6 .i6_t ._text a span{color:#949494;font-size:0.2rem;line-height: 0.5rem;height:0.5rem;}
+.category_main .i6 .i6_t ._text a img{width:0.12rem;height:0.24rem;position: absolute;right:-0.1rem;top:0.14rem;}
+.category_main .i6 .i6_b{width:100%;padding:0 0.24rem 0 0.24rem;}
+.category_main .i6 .i6_b ul{width:100%;padding:0.22rem 0.3rem 0 0.28rem;}
+.category_main .i6 .i6_b ul li{width:1.26rem;margin-right:0.5rem;float:left;height:1.46rem;margin-bottom:0.58rem;text-align: center;}
+.category_main .i6 .i6_b ul li:nth-child(3n){margin-right: 0;}
+.category_main .i6 .i6_b ul li img{width:100%;height:1.16rem;}
+.category_main .i6 .i6_b ul li span{color:#ababab;font-size: 0.28rem;}
+
+/*酒具周边*/
+.category_main .i7{float:right;width:5.88rem;overflow-y:auto;height:100%;}
+.category_main .i7 section{width:100%;padding: 0.42rem 0.52rem 0 0.4rem;}
+.category_main .i7 section ul{width:100%;}
+.category_main .i7 section ul li{width:1.34rem;height:1.74rem;margin-right:0.46rem;float: left;text-align: center;}
+.category_main .i7 section ul li:nth-child(3){margin-right: 0}
+.category_main .i7 section ul li img{width:100%;height:1.88rem;}
+.category_main .i7 section ul li span{padding-top:0.2rem;font-size: 0.24rem;color:#656565;}
+
+
+

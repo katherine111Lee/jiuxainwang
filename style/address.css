@@ -1,0 +1,49 @@
+/*主体部分*/
+.m_layout .con{margin-top: 0.18rem;}
+.m_layout .con ul li .con_tit{background:#fff;padding: 0.18rem;position: relative;}
+.m_layout .con ul li .con_tit .tit_icon{float:left;}
+.m_layout .con ul li .con_tit .tit_icon img{width:1rem;height:0.42rem;margin-right: 0.18rem;}
+.m_layout .con ul li .con_tit .tit_con{float:left;}
+.m_layout .con ul li .con_tit .tit_con span{color:#666;}
+.m_layout .con ul li .con1{background: #f5f5f5;width:100%;}
+.m_layout .con ul li .con1 .con1_1{padding: 0.18rem;position: relative;}
+.m_layout .con ul li .con1 .con1_1 .imgcell{margin-right: 0.18rem;height:1.84rem;width:1.84rem;float:left;}
+.m_layout .con ul li .con1 .con1_1 .imgcell .img{background: url(../images/show4.jpg) no-repeat 0 0;background-size:contain;width:100%;height: 100%;}
+.m_layout .con ul li .con1 .con1_1 .produce{float:left;}
+.m_layout .con ul li .con1 .con1_1 .price{float:right;}
+.m_layout .con ul li .con1 .con1_1 .price p:nth-child(2){text-align:right;color:#666;font-size:0.24rem;}
+.m_layout .con ul li .con1 .con1_1 .price p:nth-child(1) i{font-style: normal;padding: 0 0.04rem;color:#f50;font-weight: bolder;}
+.m_layout .con ul li .con1 .con1_1 .price p:nth-child(1) strong{font-size:0.32rem;color:#f50;}
+.m_layout .con ul li .con1 .con1_1 .price p:nth-child(1) span{font-size: 0.24rem;color:#f50;}
+/*其他事项*/
+/*快递方式*/
+.m_layout .con ul li .way{color:#999;padding: 0.18rem;line-height: 2;background: #fff;display: flex;position:relative;border-bottom: 1px solid #ededed;}
+.m_layout .con ul li .way .way1{float:left;margin-right: 0.18rem;color:#666;}
+.m_layout .con ul li .way .way2{float:left;text-align: right;line-height: 0.48rem;flex:0.94;}
+.m_layout .con ul li .way .way3{float:right;position: absolute;right:0.32rem;top:0.4rem;}
+.m_layout .con ul li .way .way3 i{width:0.13rem;height:0.24rem;background:url(../images/address2.png) no-repeat 0 0;background-size:contain;position: absolute;top:50%;transform: translateY(-50%);}
+/*运费险*/
+.m_layout .con ul li .money{color:#999;padding: 0.18rem;line-height: 2;background: #fff;display: flex;position:relative;border-bottom: 1px solid #ededed;}
+.m_layout .con ul li .money .money1{float:left;margin-right: 0.18rem;color:#666;}
+.m_layout .con ul li .money .money2{float:left;text-align: right;line-height: 0.48rem;flex:0.94;}
+.m_layout .con ul li .money .money3{float:right;position: absolute;right:0.32rem;top:0.4rem;}
+.m_layout .con ul li .money .money3 i{width:0.13rem;height:0.24rem;background:url(../images/address2.png) no-repeat 0 0;background-size:contain;position: absolute;top:50%;transform: translateY(-50%);}
+/*投保须知*/
+.m_layout .con ul li .know{color:#999;padding: 0.18rem;line-height: 2;background: #fff;display: flex;position:relative;border-bottom: 1px solid #ededed;}
+.m_layout .con ul li .know .know1{float:left;margin-right: 0.18rem;color:#666;}
+.m_layout .con ul li .know .know2{float:left;}
+.m_layout .con ul li .know .know2 i{width:0.4rem;height:0.4rem;background:url(../images/know1.png) no-repeat 0 0;background-size:contain;position: absolute;top:50%;transform: translateY(-50%);}
+/*给卖家留言*/
+.m_layout .con ul li .message{color:#999;padding: 0.18rem;line-height: 2;background: #fff;display: flex;position:relative;border-bottom: 1px solid #ededed;}
+.m_layout .con ul li .message .message1{float:left;margin-right: 0.18rem;color:#666;}
+.m_layout .con ul li .message .message2{float:left;text-align: right;line-height: 0.48rem;flex:0.94;}
+.m_layout .con ul li .message .message3{float:right;position: absolute;right:0.32rem;top:0.4rem;}
+.m_layout .con ul li .message .message3 i{width:0.13rem;height:0.24rem;background:url(../images/address2.png) no-repeat 0 0;background-size:contain;position: absolute;top:50%;transform: translateY(-50%);}
+/*共计*/
+.m_layout .con ul li .all{padding:0.18rem;line-height: 2;background: #fff;position:relative;border-bottom: 1px solid #ededed;}
+.m_layout .con ul li .all .all1{float:left;margin-left:4.1rem;margin-top: 0.05rem;}
+.m_layout .con ul li .all .all1 em,span{color:#666;font-weight: 400;font-style: normal;}
+.m_layout .con ul li .all .all2{float:right;text-align:right;}
+.m_layout .con ul li .all .all2 i{padding:0.04rem;color:#f50;font-weight: bolder;font-size: 0.24rem;font-style: normal;}
+.m_layout .con ul li .all .all2 u{text-decoration: none;color:#f50;font-size: 0.32rem;}
+
